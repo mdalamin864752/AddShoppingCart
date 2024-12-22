@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light" >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add to card</title>
+    
+<link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.22/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="">
+    <div class="w-7/12 mx-auto mt-10 ">
+        <input id="productName" class="lg h-10 border-2 rounded-md bg-slate-200 p-2" type="text" placeholder="product">
+    <input id="productQuantity" class="lg h-10 border-2 rounded-md bg-slate-200 p-2" type="text" placeholder="Quantity">
+    <button onclick="addProduct()" class="btn bg-red-300 ">Add to card</button>
+    </div>
+    <!-- display the input item -->
+    <ul id="product_container" class="text-2xl text-green-600 w-6/12 mx-auto grid lg:grid-cols-2">
+
+    </ul>
+    <script src="card.js"></script>
+</body>
+</html>
